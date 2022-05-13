@@ -20,3 +20,7 @@ npm run dev
 
 - Svelte: https://svelte.dev/docs
 - SvelteKit: https://kit.svelte.dev/docs/introduction
+
+## Paleta de colores
+
+https://colorhunt.co/palette/233142455d7af95959facf5a
