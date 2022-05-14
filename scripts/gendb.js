@@ -8,13 +8,10 @@ import Database from 'better-sqlite3'
 const db = new Database(join(__dirname, '../', 'db.sqlite3'), {})
 
 db.exec(`
-CREATE TABLE "USERS" (
-	"username"	TEXT,
-	"email"	TEXT NOT NULL,
-  "passwordHash"	TEXT NOT NULL,
+CREATE TABLE "STAFF" (
 	"name"	TEXT,
-	"country"	TEXT,
-	"city"	TEXT,
-	PRIMARY KEY("username")
+	"surname"	TEXT,
+	"email"	TEXT NOT NULL,
+	PRIMARY KEY("email")
 );
 `)

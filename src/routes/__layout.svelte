@@ -7,11 +7,8 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-  * {
-    font-family: 'Bebas Neue', cursive;
-  }
-
   nav {
+    font-family: 'Bebas Neue', cursive;
     width: 100%;
     background-color: #233142;
     color: #f95959;
