@@ -9,9 +9,11 @@ const db = new Database(join(__dirname, '../', 'db.sqlite3'), {})
 
 db.exec(`
 CREATE TABLE "STAFF" (
-	"name"	TEXT,
-	"surname"	TEXT,
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"role"	TEXT,
 	"email"	TEXT NOT NULL,
-	PRIMARY KEY("email")
+	"name"	TEXT NOT NULL,
+	"surname"	TEXT,
+	"birthdate"	INTEGER
 );
 `)
