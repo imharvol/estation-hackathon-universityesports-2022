@@ -16,4 +16,9 @@
 </main>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
 </style>
