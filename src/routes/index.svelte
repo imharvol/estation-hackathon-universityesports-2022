@@ -2,7 +2,7 @@
 </script>
 
 <head>
-  <title>Hackathon University Esports</title>
+  <title>Inicio | ESTATION</title>
 </head>
 
 <main>

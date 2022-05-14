@@ -3,7 +3,7 @@
 </script>
 
 <head>
-  <title>Añadir personal</title>
+  <title>Añadir personal | ESTATION</title>
 </head>
 
 <main>
