@@ -26,8 +26,6 @@ export async function post({ request }) {
   const creationDate = formData.get('creationDate') ? new Date(formData.get('creationDate')) : null
   const notes = formData.get('notes')
 
-  console.log(name, game, creationDate, notes)
-
   if (!name) errors.name = 'El nombre del equipo no puede estar vacío'
   if (!games.includes(game)) errors.game = 'El juego seleccionado no es valido'
 

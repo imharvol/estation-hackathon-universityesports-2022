@@ -13,6 +13,7 @@
 </script>
 
 <script>
+  import { fly } from 'svelte/transition'
   import { browser } from '$app/env'
   import { page } from '$app/stores'
 
@@ -57,7 +58,7 @@
 
   {#if showAddTeam}
     {#if Object.entries(errors).length > 0}{JSON.stringify(errors)}{/if}
-    <form class="add-team-form" action="" method="post">
+    <form class="add-team-form" action="" method="post" transition:fly>
       <label for="nameInput">Nombre del equipo:</label>
       <input name="name" type="text" id="nameInput" placeholder="Nombre" required />
 
@@ -163,6 +164,7 @@
     margin: 0.5rem 0 0.5rem 0;
     font-size: large;
     padding: 0.5rem;
+    border-radius: 1rem;
   }
   .team-name {
     font-weight: bold;

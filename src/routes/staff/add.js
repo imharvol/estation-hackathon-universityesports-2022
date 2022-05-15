@@ -54,10 +54,10 @@ export async function post({ request }) {
     await writeFile(join(staffPhotosPath, id + '.png'), photoFile.stream(), { encoding: null })
   }
 
+  const person = db.prepare('SELECT * FROM STAFF WHERE id = ?').get(id)
+
   return {
-    status: 303,
-    headers: {
-      location: ''
-    }
+    status: 200,
+    body: { person }
   }
 }

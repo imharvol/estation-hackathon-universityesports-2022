@@ -37,7 +37,7 @@
   }
 
   .flex-item {
-    background-color: #f95959;
+    background-color: #78c892;
     border-radius: 0.5rem;
     font-size: x-large;
     margin: 0.5rem;
