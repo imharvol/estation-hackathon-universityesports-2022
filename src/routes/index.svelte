@@ -5,10 +5,8 @@
   <title>Inicio | ESTATION</title>
 </head>
 
-<main>
-  <h1>Welcome to SvelteKit</h1>
-  <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-</main>
+<a href="/staff">Personal</a>
+<a href="/reports">Informes</a>
 
 <style>
 </style>

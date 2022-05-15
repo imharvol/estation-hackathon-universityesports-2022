@@ -8,7 +8,8 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "gendb": "node scripts/gendb.js",
-    "genpk": "openssl rand -hex 64"
+    "genpk": "openssl rand -hex 64",
+    "postinstall": "cp ./node_modules/boxicons/dist/boxicons.js ./static/boxicons.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
