@@ -23,6 +23,7 @@ CREATE TABLE "TEAMS" (
 	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
 	"name"	TEXT NOT NULL,
 	"game"	TEXT,
-	"creationDate"	INTEGER
+	"creationDate"	INTEGER,
+	"notes"	TEXT
 );
 `)

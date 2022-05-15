@@ -28,7 +28,14 @@
 
 <div class="search-container">
   <form method="get" action="">
-    <input type="text" name="q" placeholder="Busqueda ..." bind:value={query} />
+    <input
+      type="text"
+      name="q"
+      placeholder="Busqueda ..."
+      class="search-input"
+      bind:value={query}
+    />
+    <input type="submit" class="search-button" value="Buscar" />
   </form>
 </div>
 
@@ -54,6 +61,19 @@
   .search-container {
     width: 80vw;
     margin: auto;
+    text-align: center;
+  }
+
+  .search-container * {
+    font-size: xx-large;
+  }
+
+  .search-input {
+    border: 0.2rem solid black;
+  }
+
+  .search-button {
+    border: 0.2rem solid black;
   }
 
   .flex-container {

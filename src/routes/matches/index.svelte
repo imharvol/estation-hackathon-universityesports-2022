@@ -1,1 +1,1 @@
-<img src="/working-cat.gif" alt="gato trabajando">
+<img src="/working-cat.gif" alt="gato trabajando" />
