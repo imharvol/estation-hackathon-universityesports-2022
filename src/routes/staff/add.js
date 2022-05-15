@@ -22,7 +22,7 @@ export async function post({ request }) {
   const name = formData.get('name')
   const surname = formData.get('surname')
   const email = formData.get('email')
-  const birthdate = formData.has('birthdate') ? new Date(formData.get('birthdate')) : null
+  const birthdate = formData.get('birthdate') ? new Date(formData.get('birthdate')) : null
   const photoFile = formData.get('photo')
 
   if (!role) errors.role = 'El rol de la persona no puede estar vacío'
