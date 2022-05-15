@@ -14,6 +14,15 @@ CREATE TABLE "STAFF" (
 	"email"	TEXT NOT NULL,
 	"name"	TEXT NOT NULL,
 	"surname"	TEXT,
-	"birthdate"	INTEGER
+	"birthdate"	INTEGER,
+	"team"	INTEGER,
+	FOREIGN KEY("team") REFERENCES "TEAMS"("id")
+);
+
+CREATE TABLE "TEAMS" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"name"	TEXT NOT NULL,
+	"game"	TEXT,
+	"creationDate"	INTEGER
 );
 `)

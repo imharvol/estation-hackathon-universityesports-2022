@@ -17,6 +17,16 @@
     <img src="/icons/bxs-report.svg" alt="icono de informes" class="link-icon" />
     Informes
   </a>
+
+  <a href="/teams" class="link flex-container">
+    <img src="/icons/bx-sitemap.svg" alt="icono de teams" class="link-icon" />
+    Equipos
+  </a>
+
+  <a href="/matches" class="link flex-container">
+    <img src="/icons/bx-play.svg" alt="icono de teams" class="link-icon" />
+    Partidos
+  </a>
 </nav>
 
 <slot />

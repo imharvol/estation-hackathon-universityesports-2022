@@ -7,7 +7,7 @@
     <img
       class="person-photo"
       src="/staff/photo/{person.id}"
-      alt="photo of {person.name} {person.surname}"
+      alt="foto de {person.name} {person.surname}"
     />
   </div>
   <div class="person-attributes">
