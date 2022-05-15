@@ -1,13 +1,9 @@
 import 'dotenv/config'
 
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
 import { join } from 'path'
 import { readFile } from 'fs/promises'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-
-const staffPhotosPath = join(__dirname, '../../../../private/staff-photos/')
+const staffPhotosPath = 'private/staff-photos/'
 const defaultStaffPhotoFileName = 'default.jpg'
 
 export async function get({ params }) {

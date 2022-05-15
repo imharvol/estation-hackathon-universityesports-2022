@@ -1,17 +1,14 @@
 import 'dotenv/config'
 
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
 import { join } from 'path'
 import { writeFile } from 'fs/promises'
 import Database from 'better-sqlite3'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const db = new Database(join(__dirname, '../../../db.sqlite3'), {})
+const db = new Database('db.sqlite3', {})
 
 const validRoles = ['player', 'trainer', 'nutritionist']
 
-const staffPhotosPath = join(__dirname, '../../../private/staff-photos/')
+const staffPhotosPath = 'private/staff-photos/'
 
 export async function post({ request }) {
   let errors = {}
