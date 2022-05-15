@@ -1,3 +1,7 @@
+<head>
+  <title>Informes | ESTATION</title>
+</head>
+
 <div>
   <h2>Parece que esto no esta implementado :(</h2>
   <h2>Prueba con otra pestaña</h2>

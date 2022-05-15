@@ -3,7 +3,6 @@
 
   export let errors = {}
   export let person = null
-  console.log(person)
 </script>
 
 <head>
